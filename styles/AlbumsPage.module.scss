@@ -1,0 +1,17 @@
+.AlbumsPage {
+    background: linear-gradient(#ffe86f, #ffffff);
+}
+
+.list {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.count {
+    font-size: 18px;
+    color: #444444;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

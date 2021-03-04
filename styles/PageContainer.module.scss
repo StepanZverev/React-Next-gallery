@@ -1,0 +1,58 @@
+.PageContainer {
+  min-height: 1024px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 10px 20px 80px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 90px;
+    line-height: 110%;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #444444;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.suptitle {
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 60px;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    margin: 0 -20px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.backlink, .link {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.header {
+    margin-bottom: 70px;
+}
+
+.git {
+    align-self: flex-end;
+}
